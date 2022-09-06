@@ -1,5 +1,4 @@
 * README
 This is a repo for my notes about
 https://github.com/kaveh808/kons-9
-and my fork
-https://github.com/bigos/kons-9
+and my fork https://github.com/bigos/kons-9.
