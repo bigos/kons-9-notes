@@ -36,3 +36,9 @@ Possibly the further explanation lies in the [[https://github.com/kaveh808/kons-
 
 ** Workflow
 [[https://github.com/kaveh808/kons-9/discussions/37][Proposed Workflow]] is one of the places to start looking around.
+
+** libraries used
+
+*** glfw
+https://www.glfw.org/documentation.html
+https://github.com/AlexCharlton/cl-glfw3
