@@ -41,6 +41,8 @@ Possibly the further explanation lies in the [[https://github.com/kaveh808/kons-
 
 *** glfw
 https://www.glfw.org/documentation.html
+
+https://www.glfw.org/
 ,
 https://github.com/AlexCharlton/cl-glfw3
 
@@ -48,8 +50,6 @@ https://github.com/AlexCharlton/cl-glfw3
 https://github.com/3b/cl-opengl
 
 https://quickdocs.org/cl-opengl?tab=systems
-
-https://www.ibm.com/docs/en/aix/7.1?topic=manual-opengl-utility-glu-library
 
 https://www.opengl.org/resources/librarIES
 
