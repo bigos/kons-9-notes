@@ -45,7 +45,9 @@ https://www.glfw.org/documentation.html
 https://github.com/AlexCharlton/cl-glfw3
 
 *** cl-opengl
-TODO
+https://github.com/3b/cl-opengl
+
+https://quickdocs.org/cl-opengl?tab=systems
 
 *** cl-glu
-TODO
+https://github.com/3b/cl-opengl/tree/master/glu
