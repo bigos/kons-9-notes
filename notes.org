@@ -59,3 +59,5 @@ https://github.com/3b/cl-opengl/tree/master/glut
 
 *** text rendering
 https://learnopengl.com/In-Practice/Text-Rendering
+
+https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf
