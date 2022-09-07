@@ -49,5 +49,10 @@ https://github.com/3b/cl-opengl
 
 https://quickdocs.org/cl-opengl?tab=systems
 
-*** cl-glu
+https://www.ibm.com/docs/en/aix/7.1?topic=manual-opengl-utility-glu-library
+
+https://www.opengl.org/resources/librarIES
+
 https://github.com/3b/cl-opengl/tree/master/glu
+
+https://github.com/3b/cl-opengl/tree/master/glut
