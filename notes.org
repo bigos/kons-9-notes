@@ -56,3 +56,6 @@ https://www.opengl.org/resources/librarIES
 https://github.com/3b/cl-opengl/tree/master/glu
 
 https://github.com/3b/cl-opengl/tree/master/glut
+
+*** text rendering
+https://learnopengl.com/In-Practice/Text-Rendering
