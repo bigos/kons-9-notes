@@ -24,4 +24,12 @@ file:~/Programming/Lisp/kons-9/kons-9.asd::11
 #+end_example
 
 ** REPL
+
 [[file:~/Programming/Lisp/kons-9-notes/notes.org::*first run][first run]]
+
+** Sunday experiments
+in jacek-devel branch I have added new library
+[[file:~/Programming/Lisp/kons-9/kons-9.asd::18][cl-freetype2]]
+
+documentation overview
+file:~/quicklisp/dists/quicklisp/software/cl-freetype2-20220707-git/doc/intro.md::19
