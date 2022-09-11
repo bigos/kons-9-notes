@@ -16,6 +16,7 @@ contexts and surfaces, receiving input and events.
 
 *** freetype and cl and opengl
 https://github.com/rpav/cl-freetype2
+http://freetype.org/
 
 ** dependencies
 file:~/Programming/Lisp/kons-9/kons-9.asd::11
@@ -33,3 +34,13 @@ in jacek-devel branch I have added new library
 
 documentation overview
 file:~/quicklisp/dists/quicklisp/software/cl-freetype2-20220707-git/doc/intro.md::19
+
+seems like the fonts should be converted to svg
+and that somehow used to pass to opengl
+https://stackoverflow.com/questions/6287650/rendering-svg-with-opengl-and-opengl-es
+
+
+file:~/quicklisp/dists/quicklisp/software/cl-freetype2-20220707-git/src/face.lisp::1
+
+Looking at various links mentioned above I did not find anything that would
+suggest a simple solution.
