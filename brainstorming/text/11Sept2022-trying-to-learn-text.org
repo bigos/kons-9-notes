@@ -44,3 +44,5 @@ file:~/quicklisp/dists/quicklisp/software/cl-freetype2-20220707-git/src/face.lis
 
 Looking at various links mentioned above I did not find anything that would
 suggest a simple solution.
+
+https://www.youtube.com/watch?v=FVYl4o1rgIs
