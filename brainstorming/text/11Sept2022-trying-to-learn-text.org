@@ -1,0 +1,27 @@
+* 11 Sept 2022 trying to learn text
+
+** libraries to check
+https://learnopengl.com/In-Practice/Text-Rendering
+https://www.opengl.org/resources/librarIES
+
+https://github.com/3b/cl-opengl
+https://github.com/AlexCharlton/cl-glfw3
+https://github.com/lholden/cl-glfw
+
+*** glfw library
+https://www.glfw.org/
+GLFW is an Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan
+development on the desktop. It provides a simple API for creating windows,
+contexts and surfaces, receiving input and events.
+
+*** freetype and cl and opengl
+https://github.com/rpav/cl-freetype2
+
+** dependencies
+file:~/Programming/Lisp/kons-9/kons-9.asd::11
+#+begin_example
+#:cl-opengl #:cl-glu #:cl-glfw3
+#+end_example
+
+** REPL
+[[file:~/Programming/Lisp/kons-9-notes/notes.org::*first run][first run]]
