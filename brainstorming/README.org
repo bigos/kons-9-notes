@@ -3,4 +3,4 @@
 This folder is not for documentation! No effort is made about the correctness of
 any information found here. Any links to the code and any information can
 quickly become out of date or can be simply wrong. If any text appears to be
-valuable, it should be revised and copied elsewhere.
+useful, it should be revised and copied elsewhere.
