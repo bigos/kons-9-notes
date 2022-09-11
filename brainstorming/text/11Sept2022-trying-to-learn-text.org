@@ -46,3 +46,4 @@ Looking at various links mentioned above I did not find anything that would
 suggest a simple solution.
 
 https://www.youtube.com/watch?v=FVYl4o1rgIs
+http://matthieu.besson.pagesperso-orange.fr/2010.01.15/SVG%20Rendering%20using%20OpenGL.html
