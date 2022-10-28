@@ -40,3 +40,14 @@ I still got this error
 ;      too many elements in
 ;        ('SINGLE-FLOAT MIN INACCURACY FLOAT1 FLOAT2)
 #+end_example
+
+file:~/Programming/Lisp/kons-9/testsuite/assertions.lisp::29
+
+Removing ~'single-float~ in the assertions file I was able to execute
+#+begin_src lisp
+(ql:quickload "kons-9/testsuite")
+#+end_src
+
+I failed at my attempt to execute all available tests.
+
+At this point I wonder to what extent the code is behind the README.md file?
