@@ -38,3 +38,11 @@ KONS-9> (run)
 OpenGL Version: 4.6
 KONS-9>
 #+end_example
+
+*** Trying demo
+At this point with the ~(run)~ running in the REPL I have copied the code from
+file:~/Programming/Lisp/kons-9/test/test-demos.lisp::11
+to my REPL and ran it. It was a success. A bunch of 3D drawing flashed before my
+eyes.
+
+Is it possible that my last unsuccesful attempt was caused by running the demos before running ~(run)~?
