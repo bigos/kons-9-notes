@@ -45,4 +45,9 @@ file:~/Programming/Lisp/kons-9/test/test-demos.lisp::11
 to my REPL and ran it. It was a success. A bunch of 3D drawing flashed before my
 eyes.
 
-Is it possible that my last unsuccesful attempt was caused by running the demos before running ~(run)~?
+Is it possible that my last unsuccessful attempt was caused by running the demos before running ~(run)~?
+
+On my system, after ~(run)~, I can use the REPL and load the following to see the demos.
+#+begin_example
+(load "~/Programming/Lisp/kons-9/test/test-demos.lisp")
+#+end_example
