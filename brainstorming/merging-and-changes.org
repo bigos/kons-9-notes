@@ -24,7 +24,19 @@ know how to run them.
 
 Now I will read the instructions file:~/Programming/Lisp/kons-9/README.md::1
 
-Trying to run the testsuite from the REPL has failed.
+*** trying to run tests
+Trying to run the test suite from the REPL has failed.
 file:~/Programming/Lisp/kons-9/README.md::73
 my code was identical merge of kaveh-devel-3
 I will try main after some break
+
+*** trying to run tests again
+This time I will run the tests on main branch and will try tests in the REPL
+file:~/Programming/Lisp/kons-9/README.md::77
+
+I still got this error
+#+begin_example
+;    Error while parsing arguments to DEFMACRO CONFIDENCE::FLOAT-COMPARISON-THRESHOLD:
+;      too many elements in
+;        ('SINGLE-FLOAT MIN INACCURACY FLOAT1 FLOAT2)
+#+end_example
