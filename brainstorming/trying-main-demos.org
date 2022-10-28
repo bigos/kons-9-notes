@@ -15,7 +15,7 @@ file:~/Programming/Lisp/kons-9/README.md::47
 
 #+begin_src lisp
 (push (uiop:getcwd) ql:*local-project-directories*)
-+end_src
+#+end_src
 
 because on my system it sends me down the wrong path.
 #+begin_example
