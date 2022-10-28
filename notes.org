@@ -28,6 +28,11 @@ And run the code
 (run)
 #+end_example
 
+run the demos after editing the path to match your system
+#+begin_example
+(load "~/Programming/Lisp/kons-9/test/test-demos.lisp")
+#+end_example
+
 ** what's missing
 First run on Linux shows empty 3D grid and a panel of empty buttons.
 
