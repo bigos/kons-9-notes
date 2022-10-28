@@ -60,3 +60,14 @@ None worked with my little changes based on main branch.
 
 I will try with kaveh-devel-3 branch.
 Copying test-demos.lisp to REPL did not run any test successfully.
+
+** Conclusion
+
+If anybody is reading this, please let me know if there is a way to run the tests and demos.
+I have seen the issue 155
+https://github.com/kaveh808/kons-9/issues/155
+and I have no idea how to proceed from this point.
+
+I will keep looking at the project because the README file states some goals
+that I like very much and already I have an idea for a plugin. I hope this
+project takes off.
