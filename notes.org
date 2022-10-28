@@ -14,10 +14,9 @@ git clone git@github.com:bigos/kons-9.git
 #+end_example
 
 ** first run
-Use REPL to load the code my way.
+Use REPL to load the code my way. Edit the path to path your system.
 
 #+begin_example
-;; (push (uiop:getcwd) ql:*local-project-directories*)
 (push #p "~/Programming/Lisp/kons-9/" ql:*local-project-directories*)
 (ql:quickload "kons-9")
 (in-package :kons-9)
