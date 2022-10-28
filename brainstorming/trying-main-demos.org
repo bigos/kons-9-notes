@@ -1,0 +1,7 @@
+* Trying main demos
+Following my lack of success described in:
+file:~/Programming/Lisp/kons-9-notes/brainstorming/merging-and-changes.org::64
+
+I had response from the author
+https://github.com/kaveh808/kons-9/discussions/158#discussioncomment-3997035
+which I am going to try.
