@@ -10,7 +10,7 @@ which I am going to try.
 I am at my fork of main branch. I start slime. And see the Readme file.
 file:~/Programming/Lisp/kons-9/README.md::41
 
-I disagree with this code
+*** I disagree with this code
 file:~/Programming/Lisp/kons-9/README.md::47
 
 #+begin_src lisp
@@ -26,3 +26,15 @@ because on my system it sends me down the wrong path.
 I prefer my version
 file:~/Programming/Lisp/kons-9-notes/notes.org::21
 where I explicitly state the correct path for my system.
+
+*** Running it
+I have follwed the instructions and then ~(run)~ the code. The demo window is
+visible and I have REPL
+
+#+begin_example
+KONS-9> (run)
+#<SIMPLE-TASKS:CALL-TASK :FUNC #<FUNCTION (LAMBDA () :IN RUN) {53BE704B}> :STATUS :SCHEDULED {1004C79303}>
+
+OpenGL Version: 4.6
+KONS-9>
+#+end_example
