@@ -21,3 +21,10 @@ sidebar with text. A quick look has revealed a (show-menu ) method, but at this
 point I do not know how to proceed. The youtube video
 https://youtu.be/THMzaVDaZP8 shows some 3D animations in action, but I do not
 know how to run them.
+
+Now I will read the instructions file:~/Programming/Lisp/kons-9/README.md::1
+
+Trying to run the testsuite from the REPL has failed.
+file:~/Programming/Lisp/kons-9/README.md::73
+my code was identical merge of kaveh-devel-3
+I will try main after some break
