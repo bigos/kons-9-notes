@@ -32,17 +32,12 @@ run the demos after editing the path to match your system
 (load "~/Programming/Lisp/kons-9/test/test-demos.lisp")
 #+end_example
 
-** what's missing
-First run on Linux shows empty 3D grid and a panel of empty buttons.
-
-There is no obvious way to try anything.
-
-Possibly the further explanation lies in the [[https://github.com/kaveh808/kons-9/discussions][Discussions]].
-
 ** Workflow
 [[https://github.com/kaveh808/kons-9/discussions/37][Proposed Workflow]] is one of the places to start looking around.
 
 ** libraries used
+
+This is going to change soon.
 
 *** glfw
 https://www.glfw.org/documentation.html
