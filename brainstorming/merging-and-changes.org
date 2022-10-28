@@ -71,3 +71,6 @@ and I have no idea how to proceed from this point.
 I will keep looking at the project because the README file states some goals
 that I like very much and already I have an idea for a plugin. I hope this
 project takes off.
+
+I had response from the author suggesting to try demos in main branch paying
+attention to descriptions in the code. I will describe my attempt elsewhere.
