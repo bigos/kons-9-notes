@@ -1,0 +1,15 @@
+* Merging and changes
+
+** review of changes
+
+I have not looked at the code for a while. since then we had some notable
+changes. Two new kaveh-devel-X branches have appeared and we have some demos to
+investigate. I will concentrate on branch kaveh-devel-3 to review the changes.
+
+My jacek-devel branch was merged with kaveh-devel-3 and I can see 100 files
+changes since commit 0be7048. That includes a font and libraries dealing with
+fonts.
+
+** continued
+I will look at running the new code ater the merger.
+Let's see if [[file:~/Programming/Lisp/kons-9-notes/notes.org::*first run][first run]] is any useful.
