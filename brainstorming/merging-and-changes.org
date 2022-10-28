@@ -12,7 +12,7 @@ My jacek-devel branch was merged with kaveh-devel-3 and I can see 100 files
 changes since commit 0be7048. That includes a font and libraries dealing with
 fonts.
 
-** Continued
+** Trying
 I will look at running the new code after the merger.
 Let's see if [[file:~/Programming/Lisp/kons-9-notes/notes.org::*first run][first run]] link is any useful.
 
@@ -51,3 +51,12 @@ Removing ~'single-float~ in the assertions file I was able to execute
 I failed at my attempt to execute all available tests.
 
 At this point I wonder to what extent the code is behind the README.md file?
+
+*** trying demos
+We have demos here
+file:~/Programming/Lisp/kons-9/test/test-demos.lisp::1
+
+None worked with my little changes based on main branch.
+
+I will try with kaveh-devel-3 branch.
+Copying test-demos.lisp to REPL did not run any test successfully.
