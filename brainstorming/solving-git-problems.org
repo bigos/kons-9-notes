@@ -1,0 +1,13 @@
+* Solving git problems
+
+** git submodules
+https://github.com/kaveh808/kons-9/issues/155
+There is a plan to use git submodules in the future to go around the quicklisp problems.
+
+** quicklisp has old version of lisp library
+https://github.com/kaveh808/kons-9/issues/155#issuecomment-1295618908
+
+#+begin_example
+cd ~/quicklisp/local-projects
+git clone git@github.com:melusina-org/cl-confidence.git
+#+end_example
