@@ -1,8 +1,10 @@
 * Merging and changes
 
+file:~/Programming/Lisp/kons-9/kons-9.asd::6
+
 ** review of changes
 
-I have not looked at the code for a while. since then we had some notable
+I have not looked at the code for a while. Since then we had some notable
 changes. Two new kaveh-devel-X branches have appeared and we have some demos to
 investigate. I will concentrate on branch kaveh-devel-3 to review the changes.
 
@@ -11,5 +13,9 @@ changes since commit 0be7048. That includes a font and libraries dealing with
 fonts.
 
 ** continued
-I will look at running the new code ater the merger.
-Let's see if [[file:~/Programming/Lisp/kons-9-notes/notes.org::*first run][first run]] is any useful.
+I will look at running the new code after the merger.
+Let's see if [[file:~/Programming/Lisp/kons-9-notes/notes.org::*first run][first run]] link is any useful.
+
+The instructions allowed me to compile and run the code, but I did not see the
+sidebar with text. A quick look has revealed a (show-menu ) method, but at this
+point I do not know how to proceed.
