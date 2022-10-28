@@ -5,3 +5,24 @@ file:~/Programming/Lisp/kons-9-notes/brainstorming/merging-and-changes.org::64
 I had response from the author
 https://github.com/kaveh808/kons-9/discussions/158#discussioncomment-3997035
 which I am going to try.
+
+** Latest main code
+I am at my fork of main branch. I start slime. And see the Readme file.
+file:~/Programming/Lisp/kons-9/README.md::41
+
+I disagree with this code
+file:~/Programming/Lisp/kons-9/README.md::47
+
+#+begin_src lisp
+(push (uiop:getcwd) ql:*local-project-directories*)
++end_src
+
+because on my system it sends me down the wrong path.
+#+begin_example
+(uiop:getcwd)
+#P"/home/jacek/Programming/Lisp/kons-9-notes/brainstorming/"
+#+end_example
+
+I prefer my version
+file:~/Programming/Lisp/kons-9-notes/notes.org::21
+where I explicitly state the correct path for my system.
