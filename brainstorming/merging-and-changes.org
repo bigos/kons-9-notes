@@ -2,7 +2,7 @@
 
 file:~/Programming/Lisp/kons-9/kons-9.asd::6
 
-** review of changes
+** Review of changes
 
 I have not looked at the code for a while. Since then we had some notable
 changes. Two new kaveh-devel-X branches have appeared and we have some demos to
@@ -12,10 +12,12 @@ My jacek-devel branch was merged with kaveh-devel-3 and I can see 100 files
 changes since commit 0be7048. That includes a font and libraries dealing with
 fonts.
 
-** continued
+** Continued
 I will look at running the new code after the merger.
 Let's see if [[file:~/Programming/Lisp/kons-9-notes/notes.org::*first run][first run]] link is any useful.
 
 The instructions allowed me to compile and run the code, but I did not see the
 sidebar with text. A quick look has revealed a (show-menu ) method, but at this
-point I do not know how to proceed.
+point I do not know how to proceed. The youtube video
+https://youtu.be/THMzaVDaZP8 shows some 3D animations in action, but I do not
+know how to run them.
