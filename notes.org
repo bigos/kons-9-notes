@@ -61,3 +61,12 @@ https://github.com/3b/cl-opengl/tree/master/glut
 https://learnopengl.com/In-Practice/Text-Rendering
 
 https://steamcdn-a.akamaihd.net/apps/valve/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf
+
+** Interesting libraries worth investigating
+
+*** Deploy
+https://github.com/Shinmera/deploy
+
+This is a system to help you easily and quickly deploy standalone common lisp
+applications as binaries. Specifically it is geared towards applications with
+foreign library dependencies that run some kind of GUI.
