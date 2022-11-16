@@ -50,8 +50,17 @@ In your SBCL REPL execute the following code.
 (load "~/Programming/Lisp/kons-9/test/test-demos.lisp")
 #+end_example
 
-If you are lucky you will see a series of demos flashed on the 2D grid. If you
-are unlucky you will get an error. Errors may produce lots of output but the relevant part looks like that:
+If you are lucky you will see a series of demos flashed on the 2D grid.
+
+If you are lucky the end of the output in the REPL will look like:
+#+begin_example
+Test completed.
+T
+KONS-9>
+#+end_example
+
+If you are unlucky you will get an error. I got my error trying a development
+commit. Errors may produce lots of output but the relevant part may resemble the following:
 
 #+begin_example
 Testing file demo-superquadric...
