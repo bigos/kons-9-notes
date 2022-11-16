@@ -4,7 +4,9 @@
 This document was written on latest Linux Mint. I have compiled SBCL and Emacs
 from source so I have most of the development libraries already installed.
 
-Also I had git installed and configured.
+Also I had git installed and configured. This tutorial assumes you know how to
+use the Terminal and run you SBCL REPL and you have Quicklisp installed and
+configured.
 
 *** Missing library
 In your terminal on Ubuntu based Linux run the following:
@@ -24,7 +26,7 @@ cd ./kons-9
 #+end_example
 
 *** first run
-Use REPL to load the code.
+Start SBCL REPL and run each line.
 
 #+begin_example
 (push #p "~/Programming/Lisp/kons-9/" ql:*local-project-directories*)
@@ -37,11 +39,28 @@ And run the code
 (run)
 #+end_example
 
+That should show a window with a 3D grid. Pressing Tab on your keyboard should show a menu.
+
 ** III. Smoke test
 
 *** Run the demos
+In your SBCL REPL execute the following code.
+
 #+begin_example
 (load "~/Programming/Lisp/kons-9/test/test-demos.lisp")
+#+end_example
+
+If you are lucky you will see a series of demos flashed on the 2D grid. If you
+are unlucky you will get an error. Errors look like that:
+
+#+begin_example
+Testing file demo-superquadric...
+  superquadric 1...
+Date/time: 2022-11-16-15:49!
+An unhandled error condition has been signalled:
+   Invalid index 16 for (SIMPLE-ARRAY T
+                         (32 16)), should be a non-negative integer below 16.
+
 #+end_example
 
 ** IV. Contacts and avenues of help
