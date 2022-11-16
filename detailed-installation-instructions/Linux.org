@@ -51,7 +51,7 @@ In your SBCL REPL execute the following code.
 #+end_example
 
 If you are lucky you will see a series of demos flashed on the 2D grid. If you
-are unlucky you will get an error. Errors look like that:
+are unlucky you will get an error. Errors may produce lots of output but the relevant part looks like that:
 
 #+begin_example
 Testing file demo-superquadric...
