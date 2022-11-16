@@ -1,0 +1,9 @@
+* Readme
+
+This folder is for detailed installation instructions
+https://github.com/kaveh808/kons-9/issues/175
+
+** Linux
+
+** Add more
+I may add description of my installation on Windows that uses MSYS2.
