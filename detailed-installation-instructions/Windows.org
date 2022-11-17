@@ -133,7 +133,7 @@ type ~(ql:quickload :swank)~ and if all goes well you will see a similar output.
 
 
 #+begin_example
-~*~ (ql:quickload :swank)
+,* (ql:quickload :swank)
 To load "swank":
   Load 1 ASDF system:
     asdf
