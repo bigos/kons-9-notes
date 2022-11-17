@@ -89,7 +89,7 @@ You can install Emacs in your Terminal using pacman. But the experience of using
 Emacs installed using MSYS2 is not very pleasant because of poor speed possibly
 caused by Windows Defender. I have seen alternative approach that is not so slow,
 but is more complex to install and does not give easy access to programs
-installed  with MSYS22. This Emacs related part is the area for improvement.
+installed  with MSYS2. This Emacs related part is the area for improvement.
 
 #+begin_example
 pacman -S emacs
