@@ -69,7 +69,7 @@ the expected location and try to find the sbcl version running the following
 
 #+begin_example
 jacek@DESKTOP-M4FARGH MINGW64 ~
-$ ls /c/Program\ Files/Steel\ Bank\ Common\ Lisp/sbcl.exe
+$ ls /c/'Program Files'/'Steel Bank Common Lisp'/sbcl.exe
 '/c/Program Files/Steel Bank Common Lisp/sbcl.exe'
 
 jacek@DESKTOP-M4FARGH MINGW64 ~
