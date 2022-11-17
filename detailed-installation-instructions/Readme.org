@@ -15,6 +15,3 @@ Please see the file Linux.org in this folder.
 
 ** Windows
 Please see the file Windows.org in this folder.
-
-** Add more
-I may add description of my installation on Windows that uses MSYS2.
