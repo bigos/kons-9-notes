@@ -73,7 +73,7 @@ $ ls /c/Program\ Files/Steel\ Bank\ Common\ Lisp/sbcl.exe
 '/c/Program Files/Steel Bank Common Lisp/sbcl.exe'
 
 jacek@DESKTOP-M4FARGH MINGW64 ~
-$ /c/Program\ Files/Steel\ Bank\ Common\ Lisp/sbcl.exe --version
+$ /c/'Program Files'/'Steel Bank Common Lisp'/sbcl.exe --version
 SBCL 2.2.10
 #+end_example
 
@@ -211,7 +211,7 @@ and configure kons-9.
 
 ** II. Installation and configuration
 
-*** Pull the code from Githubls
+*** Pull the code from Github
 Use git to clone the development repo into local-projects:
 
 #+begin_example
