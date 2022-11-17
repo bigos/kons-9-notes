@@ -22,7 +22,7 @@ For our operations we will use MSYS2 MinGW x64. Pin it to some more convenient
 location. Open your MSYS2 MinGW x64 and you will see a terminal window. From
 now on I will call this window the Terminal.
 
-At the terminal please enter ~pdw~ and press Enter. Your output will return
+At the terminal please enter ~pwd~ and press Enter. Your output will return
 current directory that starts with ~/home/~ and will resemble the following.
 
 #+begin_example
