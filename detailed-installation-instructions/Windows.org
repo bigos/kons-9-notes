@@ -9,11 +9,11 @@ and use kons-9.
 
 *** MSYS2
 
-*** Install MSYS2
+**** Install MSYS2
 Go to MSYS2 installation page, and follow sections I to III.
 https://www.msys2.org/wiki/MSYS2-installation/
 
-*** Try MSYS2
+**** Try MSYS2
 MSYS2 has several subsystems. After the installation of MSYS2 your Start menu
 item MSYS2 64 will contain 5 subsystems. You can read more about them here:
 https://www.msys2.org/wiki/MSYS2-introduction/
@@ -29,4 +29,50 @@ current directory that starts with ~/home/~ and will resemble the following.
 jacek@DESKTOP-M4FARGH MINGW64 ~
 $ pwd
 /home/jacek
+#+end_example
+
+*** Install git
+Make sure git is installed running this in Terminal:
+
+#+begin_example
+pacman -S git
+#+end_example
+
+review your git settings
+#+begin_example
+git config --list --show-origin
+#+end_example
+
+and if needed
+
+Then visit this page:
+https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+and find ~Your Identity~ section. There you will find example of setting your 2
+most important git settings, that is your name and email.
+
+*** SBCL
+Visit sbcl page
+https://www.sbcl.org/platform-table.html
+and locate the green square at the bottom of the table with available ports that
+corresponds to your Windows. Because most likely your processor architecture is
+AMD64 the second square from the left will download the installer.
+
+When I try to run the Installer I get the window that says
+~Windows protected your PC~ with a button ~Don'tt run~ and an underlined text
+saying ~More info~. Clicking on that underlined text will reveal a button that
+says ~Run anyway~. Clicking it will run the installer.
+
+
+Now you need to try the newly installed sbcl. Verify that sbcl was installed at
+the expected location and try to finde the sbcl version running the following
+2 commands.
+
+#+begin_example
+jacek@DESKTOP-M4FARGH MINGW64 ~
+$ ls /c/Program\ Files/Steel\ Bank\ Common\ Lisp/sbcl.exe
+'/c/Program Files/Steel Bank Common Lisp/sbcl.exe'
+
+jacek@DESKTOP-M4FARGH MINGW64 ~
+$ /c/Program\ Files/Steel\ Bank\ Common\ Lisp/sbcl.exe --version
+SBCL 2.2.10
 #+end_example
