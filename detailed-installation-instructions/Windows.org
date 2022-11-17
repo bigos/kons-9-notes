@@ -10,7 +10,7 @@ and use kons-9.
 *** MSYS2
 
 **** Install MSYS2
-Go to MSYS2 installation page, and follow 3 sections I, II and III.
+Go to MSYS2 installation page, and follow 3 sections namely I, II and III.
 https://www.msys2.org/wiki/MSYS2-installation/
 
 **** Try MSYS2
