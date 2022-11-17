@@ -198,15 +198,7 @@ You can copy the package name ans paste if after the pacman command like this:
 $ pacman -S mingw64/mingw-w64-x86_64-glfw
 #+end_example
 
-
-
-In your Terminal use apt to install libglfw3-dev.
-
-#+begin_example
-sudo apt install libglfw3-dev
-#+end_example
-
-If apt signals that it has completed successfully then you're ready to install
+If all has completed successfully then you're ready to install
 and configure kons-9.
 
 ** II. Installation and configuration
