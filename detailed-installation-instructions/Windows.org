@@ -64,7 +64,7 @@ says ~Run anyway~. Clicking it will run the installer.
 
 
 Now you need to try the newly installed sbcl. Verify that sbcl was installed at
-the expected location and try to finde the sbcl version running the following
+the expected location and try to find the sbcl version running the following
 2 commands.
 
 #+begin_example
@@ -76,3 +76,135 @@ jacek@DESKTOP-M4FARGH MINGW64 ~
 $ /c/Program\ Files/Steel\ Bank\ Common\ Lisp/sbcl.exe --version
 SBCL 2.2.10
 #+end_example
+
+
+*** Gnu Emacs
+There are several editors that provide support for working with Common Lisp, but
+by far the most commonly-used one is GNU Emacs. These instructions assume that
+you have a recent version of GNU Emacs installed and configured to your liking.
+
+You can install Emacs in your Terminal using pacman.
+
+#+begin_example
+pacman -S emacs
+#+end_example
+
+*** quicklisp
+kons-9 relies on [[https://www.quicklisp.org/beta/][quicklisp]] to find and load dependencies, and these instructions
+assume that you have it installed on your local system. The easiest way to
+install quicklisp is to follow the [[https://www.quicklisp.org/beta/#installation][installation instructions]] at the quicklisp
+home page.
+
+
+*** Slime
+Most Lispers want more than just text-editing support for working with Lisp. The
+Superior Lisp Interaction Mode for Emacs (SLIME) is an Emacs package that
+provides comprehensive support for running a Common Lisp implementation, sending
+forms to it for evaluation, controlling its debugger, and generally making life
+easier for Lisp programmers.
+
+The easiest way to set up SLIME so that it works with quicklisp is to use
+quicklisp to install it. These instructions assume that you followed the
+instructions for installing quicklisp, as we discussed above.
+
+Open a terminal window and run sbcl
+
+#+begin_example
+jacek@DESKTOP-M4FARGH MINGW64 ~
+$ /c/'Program Files'/'Steel Bank Common Lisp'/sbcl.exe
+This is SBCL 2.2.10, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+
+#+end_example
+
+Use quicklisp to install swank. Following the star in the sbcl REPL
+type ~(ql:quickload :swank)~ and if all goes well you will see a similar output.
+
+
+#+begin_example
+* (ql:quickload :swank)
+To load "swank":
+  Load 1 ASDF system:
+    asdf
+  Install 1 Quicklisp release:
+    slime
+; Fetching #<URL "http://beta.quicklisp.org/archive/slime/2022-02-20/slime-v2.27.tgz">
+; 803.72KB
+==================================================
+823,006 bytes in 0.21 seconds (3856.66KB/sec)
+; Loading "swank"
+[package swank-loader]............................
+[package swank/backend]...........................
+[package swank/rpc]...............................
+[package swank/match].............................
+[package swank-mop]...............................
+[package swank]...................................
+[package swank/source-path-parser]................
+[package swank/source-file-cache].................
+[package swank/sbcl]..............................
+[package swank/gray]..............................
+......
+; compiling file "C:/msys64/home/jacek/quicklisp/dists/quicklisp/software/slime-v2.27/contrib/swank-util.lisp" (written 17 NOV 2022 04:44:36 AM):
+.
+
+; wrote C:/msys64/home/jacek/.slime/fasl/2.27/sbcl-2.2.10-win32-x86-64/contrib/swank-util.fasl
+; compilation finished in 0:00:00.148
+; compiling file "C:/msys64/home/jacek/quicklisp/dists/quicklisp/software/slime-v2.27/contrib/swank-repl.lisp" (written 17 NOV 2022 04:44:37 AM):
+.....................some line are skipped ......................
+
+; wrote C:/msys64/home/jacek/.slime/fasl/2.27/sbcl-2.2.10-win32-x86-64/contrib/swank-quicklisp.fasl
+; compilation finished in 0:00:00.044
+
+(:SWANK)
+#+end_example
+
+You can exit the sbcl repl typing ~(exit)~ after the star.
+
+SBCL fetches SLIME and loads the SWANK package.
+
+SLIME consists of two parts:
+
+1. The SLIME package loads in Emacs and provides a user interface for Lisp.
+2. The SWANK package loads into your Common Lisp implementation and provides communication features that enable SLIME to talk to it and control it.
+
+
+*** GLFW
+kons-9 currently depends on a development version of the GLFW library to create
+windows and render scenes.
+
+To search for installation candidates type
+
+#+begin_example
+pacman -Ss glfw
+#+end_example
+
+That will reveal 5 candidates for different MSYS2 subsystems. We assume the
+mingw64 is the right choice for you.
+
+You can grep to narrow down the version you want like this:
+
+#+begin_example
+$ pacman -Ss glfw | grep mingw64
+mingw64/mingw-w64-x86_64-glfw 3.3.7-1
+#+end_example
+
+You can copy the package name ans paste if after the pacman command like this:
+#+begin_example
+$ pacman -S mingw64/mingw-w64-x86_64-glfw
+#+end_example
+
+
+
+In your Terminal use apt to install libglfw3-dev.
+
+#+begin_example
+sudo apt install libglfw3-dev
+#+end_example
+
+If apt signals that it has completed successfully then you're ready to install
+and configure kons-9.
