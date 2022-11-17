@@ -79,11 +79,17 @@ SBCL 2.2.10
 
 
 *** Gnu Emacs
+The use of Emacs is not needed in the examples that follow.
+
 There are several editors that provide support for working with Common Lisp, but
 by far the most commonly-used one is GNU Emacs. These instructions assume that
-you have a recent version of GNU Emacs installed and configured to your liking.
+you know how to configure Emacs to your liking.
 
-You can install Emacs in your Terminal using pacman.
+You can install Emacs in your Terminal using pacman. But the experience of using
+Emacs installed using MSYS2 is not very pleasant because of poor speed possibly
+caused by Windows Defender. I have seen alternative approach that is not so slow,
+but is more complex to install and does not give easy access to programs
+installed  with MSYS22. This is the area for improvement.
 
 #+begin_example
 pacman -S emacs
