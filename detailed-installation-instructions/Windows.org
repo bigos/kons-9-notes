@@ -127,7 +127,7 @@ type ~(ql:quickload :swank)~ and if all goes well you will see a similar output.
 
 
 #+begin_example
-* (ql:quickload :swank)
+~*~ (ql:quickload :swank)
 To load "swank":
   Load 1 ASDF system:
     asdf
@@ -208,3 +208,34 @@ sudo apt install libglfw3-dev
 
 If apt signals that it has completed successfully then you're ready to install
 and configure kons-9.
+
+** II. Installation and configuration
+
+*** Pull the code from Githubls
+Use git to clone the development repo into local-projects:
+
+#+begin_example
+cd ~/quicklisp/local-projects/
+git clone https://github.com/kaveh808/kons-9.git
+#+end_example
+
+*** first run
+Start SBCL REPL
+
+#+begin_example
+/c/'Program Files'/'Steel Bank Common Lisp'/sbcl.exe
+#+end_example
+
+and run each line.
+
+#+begin_example
+(ql:quickload "kons-9")
+(in-package :kons-9)
+#+end_example
+
+And run the code
+#+begin_example
+(run)
+#+end_example
+
+That should show a window with a 3D grid. Pressing Tab on your keyboard should show a menu.
