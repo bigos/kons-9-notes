@@ -6,5 +6,8 @@ https://github.com/kaveh808/kons-9/issues/175
 ** Linux
 Please see the file Linux.org in this folder.
 
+** Windows
+Please see the file Windows.org in this folder.
+
 ** Add more
 I may add description of my installation on Windows that uses MSYS2.
