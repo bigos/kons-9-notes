@@ -238,4 +238,4 @@ And run the code
 
 That should show a white window on which a 3D grid will appear. Pressing Tab on
 your keyboard should show a menu. At the time of writing I do not know why there
-is not text on menu in Windows version.
+is not text on menu in Windows version. Is it possible that we are missing a font?
