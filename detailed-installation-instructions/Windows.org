@@ -93,6 +93,7 @@ installed  with MSYS2. This Emacs related part is the area for improvement.
 
 This page may be the answer
 https://bjg.io/guide/cygwin-ad/
+but following the instructions did not work
 
 #+begin_example
 pacman -S emacs
