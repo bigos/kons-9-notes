@@ -1,4 +1,6 @@
 * README
 This is a repo for my unofficial notes about
 https://github.com/kaveh808/kons-9
-and my fork https://github.com/bigos/kons-9.
+
+I also plan to do some work on my fork https://github.com/bigos/kons-9, so any
+notes about it will go here as well.

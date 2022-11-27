@@ -10,7 +10,7 @@ and use kons-9.
 *** MSYS2
 
 **** Install MSYS2
-Go to MSYS2 installation page, and follow sections I to III.
+Go to MSYS2 installation page, and follow 3 sections namely I, II and III.
 https://www.msys2.org/wiki/MSYS2-installation/
 
 **** Try MSYS2
@@ -22,7 +22,7 @@ For our operations we will use MSYS2 MinGW x64. Pin it to some more convenient
 location. Open your MSYS2 MinGW x64 and you will see a terminal window. From
 now on I will call this window the Terminal.
 
-At the terminal please enter ~pdw~ and press Enter. Your output will return
+At the terminal please enter ~pwd~ and press Enter. Your output will return
 current directory that starts with ~/home/~ and will resemble the following.
 
 #+begin_example
@@ -69,7 +69,7 @@ the expected location and try to find the sbcl version running the following
 
 #+begin_example
 jacek@DESKTOP-M4FARGH MINGW64 ~
-$ ls /c/Program\ Files/Steel\ Bank\ Common\ Lisp/sbcl.exe
+$ ls /c/'Program Files'/'Steel Bank Common Lisp'/sbcl.exe
 '/c/Program Files/Steel Bank Common Lisp/sbcl.exe'
 
 jacek@DESKTOP-M4FARGH MINGW64 ~
@@ -79,11 +79,21 @@ SBCL 2.2.10
 
 
 *** Gnu Emacs
+The use of Emacs is not needed in the examples that follow.
+
 There are several editors that provide support for working with Common Lisp, but
 by far the most commonly-used one is GNU Emacs. These instructions assume that
-you have a recent version of GNU Emacs installed and configured to your liking.
+you know how to configure Emacs to your liking.
 
-You can install Emacs in your Terminal using pacman.
+You can install Emacs in your Terminal using pacman. But the experience of using
+Emacs installed using MSYS2 is not very pleasant because of poor speed possibly
+caused by Windows Defender. I have seen alternative approach that is not so slow,
+but is more complex to install and does not give easy access to programs
+installed  with MSYS2. This Emacs related part is the area for improvement.
+
+This page may be the answer
+https://bjg.io/guide/cygwin-ad/
+but following the instructions did not work.
 
 #+begin_example
 pacman -S emacs
@@ -127,7 +137,7 @@ type ~(ql:quickload :swank)~ and if all goes well you will see a similar output.
 
 
 #+begin_example
-~*~ (ql:quickload :swank)
+,* (ql:quickload :swank)
 To load "swank":
   Load 1 ASDF system:
     asdf
@@ -232,4 +242,7 @@ And run the code
 
 That should show a white window on which a 3D grid will appear. Pressing Tab on
 your keyboard should show a menu. At the time of writing I do not know why there
-is not text on menu in Windows version.
+is not text on menu in Windows version. Is it possible that we are missing a font?
+
+file:~/Programming/langs/Lisp/kons-9/src/graphics/opengl/opengl.lisp::7
+lists the font which is present on Windows file system.

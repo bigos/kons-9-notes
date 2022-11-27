@@ -1,13 +1,17 @@
 * Readme
 
-This folder is for detailed installation instructions
+This folder is for a draft detailed installation instructions written in response to
+issue 175.
 https://github.com/kaveh808/kons-9/issues/175
+
+The final version of the documentation will go to:
+https://github.com/kaveh808/kons-9/tree/main/doc
+
+The existing work of other author can be found here.
+https://github.com/kaveh808/kons-9/tree/mikelevins-draft-instructions-linux/doc
 
 ** Linux
 Please see the file Linux.org in this folder.
 
 ** Windows
 Please see the file Windows.org in this folder.
-
-** Add more
-I may add description of my installation on Windows that uses MSYS2.
