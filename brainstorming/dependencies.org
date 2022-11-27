@@ -1,0 +1,8 @@
+* Dependencies
+We have discussion about wrangling dependencies
+https://github.com/kaveh808/kons-9/discussions/191
+
+** Potential Solutions
+
+*** ql-dist:install-dist
+https://borodust.org/projects/trivial-gamekit/
